@@ -14,8 +14,8 @@
 #  6) model: TRUE for nb model and FALSE for poi model
 # The main outputs posterior probability of inclusion (PPI) and original p-value, indicating
 #  and the confidence level of being an spatially variable (SV) gene
-source("R/functions.R");
-Rcpp::sourceCpp("R/boost.cpp");
+source(system.file("functions.R", package="BOOSTGP"));
+Rcpp::sourceCpp(system.file("boost.cpp", package="BOOSTGP"));
 # =========================================================================================
 
 

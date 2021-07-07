@@ -1,0 +1,11 @@
+Package: BOOSTGP
+Type: Package
+Title: Bayesian mOdeling Of Spatial Transcriptomics via Gaussian Process
+Version: 0.1.0
+Author: Qiwei Li, Minzhe Zhang, Yang Xie, Guanghua Xiao, Dario Righelli
+Maintainer: Dario Righelli <dario.righelli@gmail.com>
+Description: original repo https://github.com/Minzhe/BOOST-GP
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Depends: Rcpp, RcppArmadillo, RcppDist, MASS
